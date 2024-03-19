@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+body{
+       height: 100%;
+       width: 100%;
+       font-family: sans-serif;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+   
+}
+
+.nav{
+    height: 3vw;
+    width: 100%;
+    border-bottom: 3px solid rgb(212, 103, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vw;
+}
+.sum{
+    display: flex;
+}
+.navbar{
+    display: flex;
+    gap: 80px;
+    
+}
+.nav h2{
+    font-size: 2vw;
+    font-weight: 700;
+    color: red;
+    margin-left: 200px;
+}
+.nav h4{
+         font-size: 1vw;  
+}
+.navbar i{
+    font-size: 2vw;
+   font-weight: 800;
+    display: none;
+}
+.data{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+
+    padding: 5vw 8vw;
+    
+}
+.left h1{
+    font-size: 4vw ;
+    line-height: 4.4vw;
+}
+.left h1 span{
+    color: rgb(151, 120, 255);
+}
+.left h2{
+    font-size: 3vw;
+    color:rgb(255, 57, 196);
+    margin-top: 2vw;
+    max-width: 20vw;
+}
+button{
+    margin-top: 2vw;
+    font-size: 2vw;
+    padding: 2% 4%;
+    background-color: rgb(151, 120, 255);
+    border-radius: 5vw;
+    color: white;
+}
+
+.right{
+    height: 100%;
+    width: 50%;
+     
+}
+.right img{
+    height: 70vh;
+
+}
+
