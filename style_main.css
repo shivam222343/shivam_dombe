@@ -25,6 +25,7 @@ header {
   width: 15vw;
   color: red;
   margin-top: 2px;
+  align-item: center;
   
 }
 .logo h3{
@@ -66,12 +67,12 @@ nav a {
 .section {
   padding: 40px 0;
   background-color: white;
-  background-image: url('/New folder/img/bg.jpg');
+  background-image: url('bg.jpg');
  
 }
-.section contian{
-  height: 1000px;
-  width: 1200px;
+.section contain{
+  height: 20vh;
+  width: 80vw;
   background-color:wheat;
 }
 
