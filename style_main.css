@@ -22,7 +22,7 @@ header {
 }
 
 .logo img {
-  width: 200px;
+  width: 5vw;
   color: red;
   margin-top: 2px;
   
@@ -93,8 +93,8 @@ h2 {
 
 .box {
   background-color:wheat;
-  width: 15vw;
-  height: 25vh;
+  width: 20vw;
+  height: 15vh;
   border-radius: 8px;
   padding: 20px;
   margin-bottom: 20px;
@@ -103,14 +103,16 @@ h2 {
 
 
 h3 {
-  font-size: 1.4vw;
+  font-size: 2vw;
   color: violet;
+  max-width: 80%;
   text-decoration: none;
 }
 
 p {
-  font-size: 1vw;
+  font-size: 1.4vw;
   line-height: 1.5;
+  max-width: 80%;
   color:rgb(17, 17, 17);
   
   
